@@ -21,3 +21,8 @@
 </p>
    
 <a href ="https://xd.adobe.com/view/262601b2-4bbd-4635-bca4-12004c8c1eaa-7375/"</a>
+
+
+wireframes van evenemten pagina:
+https://xd.adobe.com/view/c0f8b7f0-e658-465f-a77c-55d1616509ee-95ab/
+https://xd.adobe.com/view/43c7e1f2-a5af-4904-9213-6e785ba80f00-1694/
