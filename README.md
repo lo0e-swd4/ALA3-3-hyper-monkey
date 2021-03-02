@@ -21,3 +21,5 @@
 </p>
    
 <a href ="https://xd.adobe.com/view/262601b2-4bbd-4635-bca4-12004c8c1eaa-7375/">Product pagina wireframe</a>
+<a href ="https://wireframe.cc/eHDe50">F.A.Q wireframe </a>
+
