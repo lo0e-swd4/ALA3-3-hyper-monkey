@@ -28,13 +28,17 @@ wireframes van evenemten pagina:
 https://xd.adobe.com/view/c0f8b7f0-e658-465f-a77c-55d1616509ee-95ab/
 https://xd.adobe.com/view/43c7e1f2-a5af-4904-9213-6e785ba80f00-1694/
 
-<a href ="https://xd.adobe.com/view/262601b2-4bbd-4635-bca4-12004c8c1eaa-7375/">Product pagina wireframe</a>
+<a href ="https://xd.adobe.com/view/262601b2-4bbd-4635-bca4-12004c8c1eaa-7375/">Product pagina wireframe</a> 
 <a href ="https://wireframe.cc/eHDe50">F.A.Q wireframe desktop</a>
 <a href ="https://wireframe.cc/pqXoAf">F.A.Q wireframe tablet</a>
 <a href ="https://wireframe.cc/qpUivh">F.A.Q wireframe mobile</a>
 
 <br>
 
-<a href="https://xd.adobe.com/view/95b48578-f341-4997-bda6-bcf078a5ad4b-c0e7/">Mockup desk productpagina</a>
+<p align="center">
+   <a href="https://xd.adobe.com/view/95b48578-f341-4997-bda6-bcf078a5ad4b-c0e7/">Mockup desk productpagina</a> |
+   <a href="https://xd.adobe.com/view/d601a79c-cf7f-4152-a9b5-e535a8830ade-8352/">Mockup tablet productpagina</a> |
+   <a href="https://xd.adobe.com/view/8d5ad3e5-54a3-403e-b9c6-470dee8468be-d809/">Mockup smartphone productpagina</a>
+</p>
 
 
