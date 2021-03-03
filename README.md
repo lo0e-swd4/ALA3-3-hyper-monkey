@@ -38,7 +38,7 @@ https://xd.adobe.com/view/43c7e1f2-a5af-4904-9213-6e785ba80f00-1694/
 <p align="center">
    <a href="https://xd.adobe.com/view/18a4297a-e9d1-4c7f-a94d-be27465e2345-4df7/">Mockup desk productpagina</a> |
    <a href="https://xd.adobe.com/view/75191042-0cb1-44a4-a55c-46236ee40ee9-204a/">Mockup tablet productpagina</a> |
-   <a href="https://xd.adobe.com/view/8d5ad3e5-54a3-403e-b9c6-470dee8468be-d809/">Mockup smartphone productpagina</a>
+   <a href="https://xd.adobe.com/view/1b2ed944-85d5-418f-bd1d-8fbe2825ea99-4e7d/">Mockup smartphone productpagina</a>
 </p>
 
 
