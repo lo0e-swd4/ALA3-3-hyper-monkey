@@ -24,6 +24,12 @@
 <a href ="https://xd.adobe.com/view/262601b2-4bbd-4635-bca4-12004c8c1eaa-7375/"</a>
 
 
+<p align="center">
+   <a href="https://xd.adobe.com/view/43c7e1f2-a5af-4904-9213-6e785ba80f00-1694/">Wireframe desk EvenementenPagina</a> |
+   <a href="https://xd.adobe.com/view/c0f8b7f0-e658-465f-a77c-55d1616509ee-95ab/">Wireframe mobile/tablet productpagina</a> |
+</p>
+
+<br>
 
 <a href ="https://xd.adobe.com/view/262601b2-4bbd-4635-bca4-12004c8c1eaa-7375/">Product pagina wireframe</a> | 
 <a href ="https://wireframe.cc/eHDe50">F.A.Q wireframe desktop</a> |
@@ -37,12 +43,4 @@
    <a href="https://xd.adobe.com/view/75191042-0cb1-44a4-a55c-46236ee40ee9-204a/">Mockup tablet productpagina</a> |
    <a href="https://xd.adobe.com/view/1b2ed944-85d5-418f-bd1d-8fbe2825ea99-4e7d/">Mockup smartphone productpagina</a>
 </p>
-
-<br>
-
-<p align="center">
-   <a href="https://xd.adobe.com/view/43c7e1f2-a5af-4904-9213-6e785ba80f00-1694/">Wireframe desk EvenementenPagina</a> |
-   <a href="https://xd.adobe.com/view/c0f8b7f0-e658-465f-a77c-55d1616509ee-95ab/">Wireframe mobile/tablet productpagina</a> |
-</p>
-
 
