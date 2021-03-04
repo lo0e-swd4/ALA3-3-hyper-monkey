@@ -30,12 +30,12 @@
 </p>
 
 <br>
-
+<p align="center">
 <a href ="https://xd.adobe.com/view/262601b2-4bbd-4635-bca4-12004c8c1eaa-7375/">Product pagina wireframe</a> | 
 <a href ="https://wireframe.cc/eHDe50">F.A.Q wireframe desktop</a> |
 <a href ="https://wireframe.cc/pqXoAf">F.A.Q wireframe tablet</a> |
 <a href ="https://wireframe.cc/qpUivh">F.A.Q wireframe mobile</a> |
-
+</p>
 <br>
 
 <p align="center">
