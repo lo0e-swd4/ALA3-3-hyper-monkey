@@ -1,0 +1,1056 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+/*VARIABELEN*/
+:root{
+    --head-foot: #92C877;
+    --banner-knop: #77AEC8;
+    --mango-blok: #eb9e68;
+    --mango-color-font: #AA0000;
+    --aardbei-blok: #ee887c;
+    --aardbei-color-font: #20603C;
+    --sinas-blok: #eadeac;
+    --sinas-color-font: #D66819;
+    --appel-blok: #b05c5c;
+    --appel-color-font: #F3CF3F;
+
+    /*FONTS VAN DE WEBSITE*/
+    --head-font: 'Potta One', cursive;
+    --sub-font: 'Architects Daughter', cursive;
+}
+
+
+/*SMARTPHONE*/
+@media screen and (min-width: 100px) and (max-width: 770px){
+    * {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    #desktop {
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+        text-align: center;
+    }
+
+    #tablet {
+        display: block;
+    }
+
+    main {
+     display: block;
+     background-color: #77AEC8;
+
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-foot);
+        height: 10vh;
+        padding: 1vw 1vh;
+    }
+
+    #monk-logo {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      
+    }
+
+    #monk-logo img {
+        width: 10vw;
+    }
+
+    #knoppen {
+        flex: 5;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+
+
+    #knoppen li {
+        list-style: none;
+        float: left;
+        padding: 2vw 1vh;
+
+    }
+
+    #knoppen li a {
+        text-decoration: none;
+        background-color: var(--banner-knop);
+        font-family: var(--head-font);
+        color: white;
+        padding: 0.5vw 1vh;
+        font-size: 3vw;
+        transition: 1s;
+ 
+    }
+
+    #knoppen li a:hover {
+        color: #20603C;
+        background-color: #5a889e;
+    }
+
+    /*BANNER*/
+
+    #banner img {
+        width: 100vw;
+        background-repeat: no-repeat;
+        height: 32vh;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    #info {
+        background-color: var(--banner-knop);
+        text-align: center;
+        padding: 2vw 2vh;
+        color: white;
+        width: 100vw;
+        border-bottom: 5px dotted white;
+       
+    }
+
+    #info p {
+        font-family: var(--sub-font);
+        font-size: 1.1em;
+    }
+
+    #info h1 {
+        font-family: var(--head-font);
+        font-size: 0.9em;
+    }
+
+    /*mango blikje*/
+
+    #mango-banner {
+        background-color: var(--mango-blok);
+        padding: 4vw 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mango-banner article {
+        padding: .8vw;
+        margin: 1vh;
+
+    }
+
+
+    #mango-banner p {
+        font-family: var(--sub-font);
+        color: var(--mango-color-font);
+       
+    }
+
+   
+    #tafel tr td {
+        font-family: var(--sub-font);
+        color: var(--mango-color-font);
+        padding: .3vw;
+    }
+
+    #mango-banner h1:nth-child(1){
+        color: var(--mango-color-font);
+    }
+
+    .titel-blok {
+        color: var(--mango-color-font);
+        font-family: var(--sub-font);
+        font-size: 1.2em;
+    }
+
+    .kop {
+        text-align: center;
+        margin-top: -1vh;
+        font-size: 2em;
+        font-family: var(--head-font);
+        height: 20vh;
+    }
+
+
+    .content {
+        padding: 3vw 5vh;
+
+    }
+
+    .blik img {
+        height: 40vh;
+        
+    }
+
+    /*AARDBEI SMAAK*/
+
+    #aardbei-banner {
+        background-color: var(--aardbei-blok);
+        padding: 4vw 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #aardbei-banner article {
+        padding: .8vw;
+        margin: 1vh;
+
+    }
+
+    #aardbei-banner p {
+        font-family: var(--sub-font);
+        color: var(--aardbei-color-font);
+     
+    }
+
+    #tafel-2 tr td {
+        font-family: var(--sub-font);
+        color: var(--aardbei-color-font);
+        padding: .3vw;
+    }
+
+    #aardbei-banner h1:nth-child(1){
+        color: var(--aardbei-color-font);
+    }
+
+    #sinas-banner {
+        background-color: var(--sinas-blok);
+        padding: 4vw 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sinas-banner article {
+        padding: .8vw;
+        margin: 1vh;
+
+    }
+
+    #sinas-banner article:nth-child(3){
+        float: left;
+        
+    }
+
+    #sinas-banner p {
+        font-family: var(--sub-font);
+        color: var(--sinas-color-font);
+     
+    }
+
+    #tafel-3 tr td {
+        font-family: var(--sub-font);
+        color: var(--sinas-color-font);
+        padding: .3vw;
+    }
+
+    #sinas-banner h1:nth-child(1){
+        color: var(--sinas-color-font);
+    }
+
+    #appel-banner {
+        background-color: var(--appel-blok);
+        padding: 4vw 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #appel-banner article {
+        padding: .8vw;
+        margin: 1vh;
+
+    }
+
+    #appel-banner p {
+        font-family: var(--sub-font);
+        color: var(--appel-color-font);
+     
+    }
+
+    #tafel-4 tr td {
+        font-family: var(--sub-font);
+        color: var(--appel-color-font);
+        padding: .3vw;
+    }
+
+    #appel-banner h1:nth-child(1){
+        color: var(--appel-color-font);
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-foot);
+        height: 11.5vh;
+    }
+
+    footer article {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer article:nth-child(1) {
+        flex: 2;
+    }
+    
+    footer article:nth-child(2) {
+        flex: 2;
+    }
+
+    
+    footer article:nth-child(3) {
+        flex: 2;
+    }
+
+    footer p {
+        font-family: var(--head-font);
+        font-size: 1em;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+        transition: 1s;
+    }
+
+    footer a:hover {
+        color: black;
+    }
+
+
+
+    footer img {
+        height: 5.5vh;
+        padding: 1vw;
+    }
+
+    footer img:nth-child(1){
+        transition: .5s;
+    }
+
+    footer img:nth-child(1):hover{
+        transform: rotate(360deg);
+    }
+
+
+
+    
+    
+}
+
+
+
+
+
+
+/*TABLET*/
+@media screen and (min-width: 770px) and (max-width: 1200px){
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+    #desktop {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        background-color: #77AEC8;
+
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-foot);
+        height: 10vh;
+        padding: 1vw 1vh;
+    }
+
+    #monk-logo {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #monk-logo img {
+        width: 8vw;
+        margin-left: 2vw;
+    }
+
+
+
+    #knoppen li {
+        list-style: none;
+        float: left;
+        padding: 1vw;
+
+    }
+
+    #knoppen li a {
+        text-decoration: none;
+        background-color: var(--banner-knop);
+        font-family: var(--head-font);
+        color: white;
+        padding: 0.5vw 1vh;
+        transition: 1s;
+ 
+    }
+
+    #knoppen li a:hover {
+        color: #20603C;
+        background-color: #5a889e;
+    }
+
+    #banner img {
+        width: 100vw;
+        background-repeat: no-repeat;
+        height: 55vh;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    #info {
+        background-color: var(--banner-knop);
+        text-align: center;
+        padding: 2vw 2vh;
+        color: white;
+        border-bottom: 5px dotted white;
+       
+    }
+
+    #info p {
+        font-family: var(--sub-font);
+        font-size: 1.2em;
+    }
+
+    #info h1 {
+        font-family: var(--head-font);
+        font-size: 1.5em;
+    }
+
+    /*MANGO BLIKJE*/
+
+    #mango-banner {
+        background-color: var(--mango-blok);
+        padding: 4vw 4vh;
+        display: block;
+
+
+    }
+
+    #mango-banner article {
+        margin-left: 6vw;
+        padding: 3vw;
+        
+    }
+
+    #mango-banner p {
+        font-family: var(--sub-font);
+        color: var(--mango-color-font);
+        font-size: 1.5vw;
+        white-space: nowrap;
+        
+    }
+
+    #mango-banner h1:nth-child(1){
+        color: var(--mango-color-font);
+    }
+
+    #mango-banner article:nth-child(3){
+        float: left;
+        
+    }
+
+    .titel-blok {
+        color: var(--mango-color-font);
+        font-family: var(--sub-font);
+        font-size: 1.2em;
+    }
+
+    .kop {
+        text-align: center;
+        margin-top: -4vh;
+        font-size: 2em;
+        font-family: var(--head-font);
+        height: 20vh;
+    }
+
+    #tafel {
+        margin-top: -3vh;
+    }
+
+
+    #tafel tr td {
+        font-family: var(--sub-font);
+        color: var(--mango-color-font);
+        padding: .3vw;
+        font-size: 1.5vw;
+    }
+
+
+    .content {
+        padding: 3vw 3vh;
+
+    }
+
+    .blik {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .blik img {
+        height: 65vh;
+    }
+
+    /*AARDBEI SMAAK*/
+
+    #aardbei-banner {
+        background-color: var(--aardbei-blok);
+        padding: 4vw 4vh;
+        display: block;
+    }
+
+    #aardbei-banner article {
+        margin-left: 6vw;
+        padding: 3vw;
+        
+    }
+
+    #aardbei-banner article:nth-child(3){
+      float: left;
+       
+        
+    }
+
+
+    #aardbei-banner p {
+        font-family: var(--sub-font);
+        color: var(--aardbei-color-font);
+        font-size: 1.5vw;
+        white-space: nowrap;
+        
+    }
+
+    #tafel-2 {
+        margin-top: -3vh;
+    }
+
+
+    #tafel-2 tr td {
+        font-family: var(--sub-font);
+        color: var(--aardbei-color-font);
+        padding: .3vw;
+        font-size: 1.5vw;
+    }
+
+    #aardbei-banner h1:nth-child(1){
+        color: var(--aardbei-color-font);
+    }
+
+
+    /*SINAS BLIKJE*/
+
+    #sinas-banner {
+        background-color: var(--sinas-blok);
+        padding: 4vw 5vh;
+        display: block;
+    }
+
+    #sinas-banner article {
+        margin-left: 6vw;
+        padding: 2vw;
+
+    }
+
+    #sinas-banner article:nth-child(3){
+        float: left;
+        
+    }
+
+    #sinas-banner p {
+        font-family: var(--sub-font);
+        color: var(--sinas-color-font);
+        font-size: 1.5vw;
+        white-space: nowrap;
+        
+    }
+
+    #tafel-3 {
+        margin-top: -3vh;
+    }
+
+    #tafel-3 tr td {
+        font-family: var(--sub-font);
+        color: var(--sinas-color-font);
+        padding: .3vw;
+        font-size: 1.5vw;
+    }
+
+    #sinas-banner h1:nth-child(1){
+        color: var(--sinas-color-font);
+    }
+
+    /*APPEL BLIKJE*/
+
+    #appel-banner {
+        background-color: var(--appel-blok);
+        padding: 4vw 5vh;
+        display: block;
+    }
+
+    #appel-banner article {
+        margin-left: 6vw;
+        padding: 2vw;
+
+    }
+
+    #appel-banner article:nth-child(3){
+        float: left;
+        
+    }
+
+    #appel-banner p {
+        font-family: var(--sub-font);
+        color: var(--appel-color-font);
+        font-size: 1.5vw;
+        white-space: nowrap;
+        
+    }
+
+    #tafel-4 {
+        margin-top: -3vh;
+    }
+
+    #tafel-4 tr td {
+        font-family: var(--sub-font);
+        color: var(--appel-color-font);
+        padding: .3vw;
+        font-size: 1.5vw;
+    }
+
+    #appel-banner h1:nth-child(1){
+        color: var(--appel-color-font);
+    }
+
+    /*FOOTER*/
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-foot);
+        height: 11.5vh;
+    }
+
+    footer article {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer article:nth-child(1) {
+        flex: 2;
+    }
+    
+    footer article:nth-child(2) {
+        flex: 2;
+    }
+
+    
+    footer article:nth-child(3) {
+        flex: 2;
+    }
+
+    footer p {
+        font-family: var(--head-font);
+        font-size: 1.4em;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+        transition: 1s;
+    }
+
+    footer a:hover {
+        color: black;
+    }
+
+
+
+    footer img {
+        height: 6.5vh;
+        padding: 1vw;
+    }
+
+    footer img:nth-child(1){
+        transition: .5s;
+    }
+
+    footer img:nth-child(1):hover{
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+
+/*DESKTOP*/
+@media screen and (min-width: 1200px){
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    
+
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--banner-knop);
+
+    }
+
+    /*NAVIGATIE*/
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-foot);
+        height: 10vh;
+        padding: 1vw 1vh;
+
+    }
+
+    header article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #monk-logo {
+        flex: 5;
+        margin-left: -14vw;
+    }
+
+    #monk-logo img {
+        width: 23vw;
+    }
+
+    #knoppen {
+     flex: 5;
+    }
+
+
+
+    #knoppen li {
+        list-style: none;
+        float: left;
+        padding: 4vw 4vh;
+
+    }
+
+    #knoppen li a {
+        text-decoration: none;
+        background-color: var(--banner-knop);
+        font-family: var(--head-font);
+        color: white;
+        padding: 0.5vw 0.9vh;
+        transition: 1s;
+ 
+    }
+
+    #knoppen li a:hover{
+        color: #20603C;
+        background-color: #5a889e;
+    }
+
+    /*BANNER*/
+
+    #banner img{
+        width: 100vw;
+        background-repeat: no-repeat;
+        height: 82vh;
+        max-width: 100%;
+        box-sizing: border-box;
+        
+    }
+
+    #info {
+        background-color: var(--banner-knop);
+        text-align: center;
+        padding: 2vw 2vh;
+        color: white;
+        border-bottom: 5px dotted white;
+       
+    }
+
+    #info p {
+        font-family: var(--sub-font);
+        font-size: 1.2em;
+    }
+
+    #info h1 {
+        font-family: var(--head-font);
+        font-size: 1.5em;
+    }
+
+    /*MANGO*/
+
+    #mango-banner {
+        background-color: var(--mango-blok);
+        padding: 4vw 4vh;
+     
+    }
+
+    #mango-banner article {
+        padding: 1vw;
+        margin: 1vw 6vh;
+       
+    }
+
+    #mango-banner p {
+        font-family: var(--sub-font);
+        color: var(--mango-color-font);
+        font-size: 1.2em;
+    }
+
+    #mango-banner h1:nth-child(1){
+        color: var(--mango-color-font);
+    }
+
+    .titel-blok {
+        color: var(--mango-color-font);
+        font-family: var(--sub-font);
+        font-size: 1.2em;
+    }
+
+    .kop {
+        text-align: center;
+        margin: 2vh;
+        font-size: 2em;
+        font-family: var(--head-font);
+     
+    }
+
+
+    #tafel tr td {
+        font-family: var(--sub-font);
+        color: var(--mango-color-font);
+        padding: .3vw;
+    }
+
+
+    .content {
+        padding: 3vw 3vh;
+    }
+
+    .blik {
+        float: right;
+        margin: 1vw 1vh;
+        margin-top: -5vh;
+
+    }
+
+    .blik img {
+        height: 80vh;
+        margin-top: -4vh;
+    }
+
+    /*AARDBEI BLIKJE*/
+
+    #aardbei-banner {
+        background-color: var(--aardbei-blok);
+        padding: 4vw 4vh;
+    
+    }
+
+    
+
+    #aardbei-banner article {
+        padding: 1vw;
+        margin: 1vw 6vh;
+
+    }
+
+    #aardbei-banner p {
+        font-family: var(--sub-font);
+        color: var(--aardbei-color-font);
+        font-size: 1.2em;
+    }
+
+    #tafel-2 tr td {
+        font-family: var(--sub-font);
+        color: var(--aardbei-color-font);
+        padding: .3vw;
+    }
+
+    #aardbei-banner h1:nth-child(1){
+        color: var(--aardbei-color-font);
+    }
+
+    /*SINAS BLIKJE*/
+
+    #sinas-banner {
+        background-color: var(--sinas-blok);
+        padding: 4vw 4vh;
+ 
+    }
+
+    #sinas-banner article {
+        padding: 1vw;
+        margin: 1vw 6vh;
+
+    }
+
+    #sinas-banner p {
+        font-family: var(--sub-font);
+        color: var(--sinas-color-font);
+        font-size: 1.2em;
+    }
+
+    #tafel-3 tr td {
+        font-family: var(--sub-font);
+        color: var(--sinas-color-font);
+        padding: .3vw;
+    }
+
+    #sinas-banner h1:nth-child(1){
+        color: var(--sinas-color-font);
+    }
+
+    /*APPEL BLIKJE*/
+
+    #appel-banner {
+        background-color: var(--appel-blok);
+        padding: 4vw 4vh;
+    }
+
+    #appel-banner article {
+        padding: 1vw;
+        margin: 1vw 6vh;
+    }
+
+    #appel-banner p {
+        font-family: var(--sub-font);
+        color: var(--appel-color-font);
+        font-size: 1.2em;
+    }
+
+    #tafel-4 tr td {
+        font-family: var(--sub-font);
+        color: var(--appel-color-font);
+        padding: .3vw;
+    }
+
+    #appel-banner h1:nth-child(1){
+        color: var(--appel-color-font);
+    }
+
+    /*FOOTER*/
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-foot);
+        height: 15.5vh;
+    }
+
+    footer article {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer article:nth-child(1) {
+        flex: 2;
+    }
+    
+    footer article:nth-child(2) {
+        flex: 2;
+    }
+
+    
+    footer article:nth-child(3) {
+        flex: 2;
+    }
+
+    footer p {
+        font-family: var(--head-font);
+        font-size: 1.4em;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+        transition: 1s;
+    }
+
+    footer a:hover {
+        color: black;
+    }
+
+
+
+    footer img {
+        height: 6.5vh;
+        padding: 2vw;
+    }
+
+    footer img:nth-child(1){
+        transition: .5s;
+    }
+
+    footer img:nth-child(1):hover{
+        transform: rotate(360deg);
+    }
+
+
+ 
+
+
+
+
+
+
+
+}
