@@ -36,9 +36,9 @@
 <br>
 
 <p align="center">
-   <a href ="https://xd.adobe.com/view/262601b2-4bbd-4635-bca4-12004c8c1eaa-7375/">Product pagina wireframe</a> | 
-   <a href="https://xd.adobe.com/view/18a4297a-e9d1-4c7f-a94d-be27465e2345-4df7/">Mockup desk productpagina</a> |
-   <a href="https://xd.adobe.com/view/75191042-0cb1-44a4-a55c-46236ee40ee9-204a/">Mockup tablet productpagina</a> |
-   <a href="https://xd.adobe.com/view/1b2ed944-85d5-418f-bd1d-8fbe2825ea99-4e7d/">Mockup smartphone productpagina</a>
+   <a href ="https://xd.adobe.com/view/262601b2-4bbd-4635-bca4-12004c8c1eaa-7375/" target="_blank">Product pagina wireframe</a> | 
+   <a href="https://xd.adobe.com/view/18a4297a-e9d1-4c7f-a94d-be27465e2345-4df7/" target="_blank">Mockup desk productpagina</a> |
+   <a href="https://xd.adobe.com/view/75191042-0cb1-44a4-a55c-46236ee40ee9-204a/" target="_blank">Mockup tablet productpagina</a> |
+   <a href="https://xd.adobe.com/view/1b2ed944-85d5-418f-bd1d-8fbe2825ea99-4e7d/" target="_blank">Mockup smartphone productpagina</a>
 </p>
 
