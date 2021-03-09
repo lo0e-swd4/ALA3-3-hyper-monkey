@@ -44,4 +44,5 @@
 
 <p align="center">
    <a href="https://xd.adobe.com/view/c94481d7-1193-4a9c-96a7-59d67c586400-9c17/" target="_blank">Mockup F.A.Q tablet</a>
+   <a href="https://xd.adobe.com/view/c70b9aab-86e3-4a39-95df-34f46f851a6e-9258/" target="_blank">Mockup F.A.Q mobile</a>
 
