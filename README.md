@@ -42,3 +42,6 @@
    <a href="https://xd.adobe.com/view/1b2ed944-85d5-418f-bd1d-8fbe2825ea99-4e7d/" target="_blank">Mockup smartphone productpagina</a>
 </p>
 
+<p align="center">
+   <a href="https://xd.adobe.com/view/c94481d7-1193-4a9c-96a7-59d67c586400-9c17/" target="_blank">Mockup F.A.Q tablet</a>
+
