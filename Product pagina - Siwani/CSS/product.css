@@ -57,6 +57,9 @@
         background-color: var(--head-foot);
         height: 10vh;
         padding: 1vw 1vh;
+        position: fixed;
+        top: 0;
+        width: 100vw;
     }
 
     #monk-logo {
@@ -387,6 +390,9 @@
         background-color: var(--head-foot);
         height: 10vh;
         padding: 1vw 1vh;
+        position: fixed;
+        top: 0;
+        width: 100vw;
     }
 
     #monk-logo {
@@ -406,7 +412,8 @@
     #knoppen li {
         list-style: none;
         float: left;
-        padding: 1vw;
+        padding: 5vw;
+        
 
     }
 
@@ -757,6 +764,9 @@
         background-color: var(--head-foot);
         height: 10vh;
         padding: 1vw 1vh;
+        position: fixed;
+        top: 0;
+        width: 100vw;
 
     }
 
