@@ -5,9 +5,9 @@
      <meta charset="utf-8">
      <meta http-equiv="language" content="NL">
      <meta name="viewport" content="width=device-width" intial-scale="1">
-     <meta name="description" content="Hyper Monkey smaken">
+     <meta name="description" content="HTML pagina">
      <meta name="author" content="Siwani Veerakathy">
-     <meta name="keywords" content="Verschillende smaken blikjes">
+     <meta name="keywords" content="Flexbox 2">
      <link rel="stylesheet" type="text/css" href="CSS/product.css">
      <title>Product | Hyper Monkey</title>
     </head>
@@ -18,7 +18,6 @@
             <!--TABLET VERSIE-->
             <section id="tablet">
 
-                <!--HEADER-->
                 <header>
                     <article id="monk-logo">
                         <a href="#"><img src="Images/aap.png" alt="logo hyper monkey"></a>
@@ -33,8 +32,7 @@
                         </nav>
                     </article>
                 </header>
-                
-                <!--CONTENT VAN DE PAGINA-->
+
                 <main>
                     <section id="banner">
                         <article><img src="Images/banner.png"></article>
@@ -313,9 +311,6 @@
                         </div>
                     </section>
                 </main>
-                <!--CONTENT VAN DE PAGINA-->
-
-<!--FOOTER-->
                 <footer>
                     <article><p><a href="#">Agenda</a></p></article>
                     <article>
@@ -327,13 +322,10 @@
                     <p><a href="https://www.fit.nl/voeding/energiedrank-ongezond" target="_blank">Informatie</a></p>
                 </article>
             </footer>
-<!--FOOTER-->
             </section>
 
             <!--DESKTOP VERSIE-->
             <section id="desktop">
-                
-                <!--HEADER-->
                 <header>
                     <article id="monk-logo">
                         <a href="#"><img src="Images/logo.png" alt="logo hyper monkey"></a>
@@ -348,15 +340,11 @@
                         </nav>
                     </article>
                 </header>
-            <!--HEADER-->
-                
-                <!--CONTENT VAN DE PAGINA-->
             <main>
                 <section id="banner">
                     <article><img src="Images/banner.png"></article>
                 </section>
 
-                
                 <section id="info">
                     <article>
                         <h1>Onze smaken</h1>
@@ -456,180 +444,3 @@
                             <td>Sodium</td>
                             <td>40mg</td>
                         </tr>
-                        <tr>
-                            <td>Koolhydraten</td>
-                            <td>12g</td>
-                        </tr>
-                        <tr>
-                            <td>Suikers</td>
-                            <td>11g</td>
-                        </tr>
-                        <tr>
-                            <td>Eiwit</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Kalium</td>
-                            <td>110mg</td>
-                        </tr>
-                        <tr>
-                            <td>Vitamine C</td>
-                            <td>110mg</td>
-                        </tr>
-                        <tr>
-                            <td>Vitamine B6</td>
-                            <td>0.34mg</td>
-                        </tr>
-                        <tr>
-                            <td>Vitamine B12</td>
-                            <td>0.48mg</td>
-                        </tr>
-                    </table>
-                </article>
-            </div>
-            </section>
-
-            <section id="sinas-banner">
-                <h1 class="kop">Sinas</h1>
-                <div class="content">
-                <article>
-                    <h1 class="titel-blok">Beschrijving</h1>
-                    <p>Licht, knapperig en verfrissend
-                        met een geheel eigen smaak,<br>
-                        Hyper Monkey Sinas biedt een
-                        sprankelende citrus- en sinaasappels maak.<div class="blik">
-                            <img src="Images/sinas.png">
-                        </div> </p>
-                </article>
-                <article>
-                    <h1 class="titel-blok">Ingredienten</h1>
-                    <p>Vitamine B3, inositol, glucuronolacton,
-                        guarana-extract, L-carnitine,vitamine B6,<br>
-                        vitamine B2, magere melk, calciumcaseïnaat
-                        (melk), suiker, glucose, taurine,<br>
-                        natriumcitraat, microkristallijne cellulose.</p>
-                </article>
-                <article id="tafel-3">
-                    <h1 class="titel-blok">Voedingswaarden</h1>
-                    <table>
-                        <div class="content-margin"></div>
-                        <tr>
-                            <td>Sodium</td>
-                            <td>40mg</td>
-                        </tr>
-                        <tr>
-                            <td>Koolhydraten</td>
-                            <td>12g</td>
-                        </tr>
-                        <tr>
-                            <td>Suikers</td>
-                            <td>11g</td>
-                        </tr>
-                        <tr>
-                            <td>Eiwit</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Kalium</td>
-                            <td>110mg</td>
-                        </tr>
-                        <tr>
-                            <td>Vitamine C</td>
-                            <td>110mg</td>
-                        </tr>
-                        <tr>
-                            <td>Vitamine B6</td>
-                            <td>0.34mg</td>
-                        </tr>
-                        <tr>
-                            <td>Vitamine B12</td>
-                            <td>0.48mg</td>
-                        </tr>
-                    </table>
-                </article>
-            </div>
-            </section>
-
-            <section id="appel-banner">
-                <h1 class="kop">Appel</h1>
-                <div class="content">
-                <article>
-                    <h1 class="titel-blok">Beschrijving</h1>
-                    <p>Een energydrank met appelsmaak die verfrissend
-                        is voor op vakantie.<br>
-                        Geeft gegarandeerd een krachtige hyper boost!
-                        <div class="blik">
-                            <img src="Images/appel.png">
-                        </div></p>
-                </article>
-                <article>
-                    <h1 class="titel-blok">Ingredienten</h1>
-                    <p>Koolzuurhoudend water, natuurlijke aroma's,
-                        citroenzuur, fosforzuur, vitamine C<br>
-                        (ascorbinezuur), magnesiumchloride,
-                        calciumchloride, vitamine B3 (niacinamide),<br>
-                        vitamine B6 (pyridoxinehydrochloride) en vitamine B12
-                        (mthylcobalamine).</p>
-                </article>
-                <article id="tafel-4">
-                    <h1 class="titel-blok">Voedingswaarden</h1>
-                    <table>
-                        <div class="content-margin"></div>
-                        <tr>
-                            <td>Sodium</td>
-                            <td>40mg</td>
-                        </tr>
-                        <tr>
-                            <td>Koolhydraten</td>
-                            <td>12g</td>
-                        </tr>
-                        <tr>
-                            <td>Suikers</td>
-                            <td>11g</td>
-                        </tr>
-                        <tr>
-                            <td>Eiwit</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Kalium</td>
-                            <td>110mg</td>
-                        </tr>
-                        <tr>
-                            <td>Vitamine C</td>
-                            <td>110mg</td>
-                        </tr>
-                        <tr>
-                            <td>Vitamine B6</td>
-                            <td>0.34mg</td>
-                        </tr>
-                        <tr>
-                            <td>Vitamine B12</td>
-                            <td>0.48mg</td>
-                        </tr>
-                    </table>
-                </article>
-            </div>
-        </main>
-                <!--CONTENT VAN DE PAGINA-->
-
-<!--FOOTER-->
-        <footer>
-            <article>
-                <p><a href="#">Agenda</a></p>
-            </article>
-            <article>
-            <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook.png"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="Images/instagram.png"></a>
-            <a href="https://twitter.com/?lang=nl " target="_blank"><img src="Images/twitter.png"></a>
-        </article>
-        <article>
-            <p><a href="https://www.fit.nl/voeding/energiedrank-ongezond" target="_blank">Informatie</a></p>
-        </article>
-    </footer>
-<!--FOOTER-->
-    </section>
-   
-
-    </body>
-</html>
