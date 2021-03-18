@@ -46,14 +46,10 @@
     main {
      display: block;
      background-color: #77AEC8;
-     margin-top: 10vh;
 
     }
 
     header {
-        position: fixed;
-        top: 0;
-        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -61,6 +57,10 @@
         background-color: var(--head-foot);
         height: 10vh;
         padding: 1vw 1vh;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+
     }
 
     #monk-logo {
@@ -109,6 +109,11 @@
 
     /*BANNER*/
     
+        main {
+        margin-top: 9vh;
+}
+
+
     #banner img {
         width: 100vw;
         background-repeat: no-repeat;
@@ -380,14 +385,10 @@
         display: flex;
         flex-direction: column;
         background-color: #77AEC8;
-        margin-top: 8vh;
 
     }
 
     header {
-        position: fixed;
-        top: 0;
-        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -395,6 +396,10 @@
         background-color: var(--head-foot);
         height: 10vh;
         padding: 1vw 1vh;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+
     }
 
     #monk-logo {
@@ -415,7 +420,7 @@
         list-style: none;
         float: left;
         padding: 5vw;
-        
+   
 
     }
 
@@ -460,6 +465,10 @@
         font-family: var(--head-font);
         font-size: 1.5em;
     }
+ 
+     main {
+        margin-top: 9vh;
+}
 
     /*MANGO BLIKJE*/
 
@@ -753,23 +762,23 @@
         display: flex;
         flex-direction: column;
         background-color: var(--banner-knop);
-        margin-top: 8vh;
 
     }
 
     /*NAVIGATIE*/
 
     header {
-        position: fixed;
-        top: 0;
-        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         background-color: var(--head-foot);
         height: 10vh;
+        width: 100vw;
         padding: 1vw 1vh;
+        position: fixed;
+        top: 0;
+    
 
     }
 
@@ -817,6 +826,9 @@
     }
 
     /*BANNER*/
+        main {
+        margin-top: 9vh;
+}
 
     #banner img{
         width: 100vw;
