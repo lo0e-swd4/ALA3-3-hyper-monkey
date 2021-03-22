@@ -1,0 +1,36 @@
+.evenement-details {
+    display: flex;
+}
+
+.evenementen-artiest-locatie {
+    display: flex;
+}
+
+.evenement summary::marker {
+    display: none;
+    content: "";
+}
+
+.evenement[open] summary::marker {
+    display: none;
+    content: "";
+}
+
+.evenement summary{
+    position: relative;
+}
+
+.evenement summary:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "▾";
+}
+
+.evenement[open] summary:after {
+    content: "▸";
+}
+
+.evenement ::marker {
+    display: none;
+}
