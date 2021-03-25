@@ -1,3 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    padding: 0px;
+}
+
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #92C877;
+    height: 10vh;
+    padding: 1vw 1vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+
+}
+
+header article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}   
+
+#monk-logo {
+    flex: 5;
+    margin-left: -14vw;
+}
+
+#monk-logo img {
+    width: 23vw;
+}
+
+#knoppen {
+    flex: 5;
+   }
+
+
+
+   #knoppen li {
+       list-style: none;
+       float: left;
+       padding: 4vw 4vh;
+
+   }
+
+   #knoppen li a {
+       text-decoration: none;
+       background-color: #77AEC8;
+       font-family: 'Potta one' cursive;
+       color: white;
+       padding: 0.5vw 0.9vh;
+       transition: 1s;
+
+   }
+
+   #knoppen li a:hover{
+       color: #20603C;
+       background-color: #5a889e;
+   }
+
+
+
+   .banner {
+       display: grid;
+        grid-template-columns: auto auto;
+   }
+   
+   .banner img {
+       width: 50vw;
+   }
+
+   #band {
+       height: 53vh;
+   }
+
+
+   main {
+       margin-top: 10vh;
+   }
+
 .evenement-details {
     display: flex;
 }
@@ -33,4 +125,84 @@
 
 .evenement ::marker {
     display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #92C877;
+    height: 15.5vh;
+}
+
+footer article {
+    display: flex;
+    justify-content: center;
+}
+
+footer article:nth-child(1) {
+    flex: 2;
+}
+
+footer article:nth-child(2) {
+    flex: 2;
+}
+
+
+footer article:nth-child(3) {
+    flex: 2;
+}
+
+footer p {
+    font-family: 'Potta One', cursive;
+    font-size: 1.4em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+footer a:hover {
+    color: black;
+}
+
+
+
+footer img {
+    height: 6.5vh;
+    padding: 2vw;
+}
+
+footer img:nth-child(1){
+    transition: .5s;
+}
+
+footer img:nth-child(1):hover{
+    transform: rotate(360deg);
 }
