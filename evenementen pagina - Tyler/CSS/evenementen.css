@@ -88,6 +88,7 @@ header article {
 
    main {
        margin-top: 10vh;
+       min-height: 74vh;
    }
 
 .evenement-details {
@@ -156,7 +157,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #92C877;
-    height: 15.5vh;
+    height: 16vh;
 }
 
 footer article {
@@ -196,7 +197,7 @@ footer a:hover {
 
 footer img {
     height: 6.5vh;
-    padding: 2vw;
+    margin: 0 2vw;
 }
 
 footer img:nth-child(1){
