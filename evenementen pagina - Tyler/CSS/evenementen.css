@@ -7,6 +7,7 @@ body {
     margin: 0 auto;
     overflow-x: hidden;
     padding: 0px;
+    background-color: #92C877;
 }
 
 
@@ -89,7 +90,7 @@ header article {
    main {
        margin-top: 10vh;
        min-height: 74vh;
-       background-color: #92C877;
+       margin-bottom: 10px;
    }
 
 .evenement-details {
@@ -138,8 +139,14 @@ header article {
     width: 300px;
     height: 300px;
 }
+.evenement-kaart {
+    margin-left: auto;
+}
 
-
+.evenement {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
