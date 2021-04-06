@@ -11,6 +11,22 @@
     <title>hyper-monkey / evenementen pagina</title>
 <head>
 <body>
+    <?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "energy";
+    $conn = new mysqli($servername, $username, $password, $database);
+
+    $sql = "SELECT  evenementen.max_bezoekers, DATE_FORMAT(evenementen.datum, '%d-%m-%Y') AS datum,
+locaties.plaatsnaam, locaties.postcode AS plaats,  artiesten.naam AS artiest, artiesten.telefoon
+FROM evenementen
+INNER JOIN artiesten ON artiesten.artiest_id = evenementen.artiest_id
+INNER JOIN locaties ON evenementen.locatie_id = locaties.locatie_id
+WHERE evenementen.datum > NOW()
+ORDER BY evenementen.datum ASC";
+
+?>
     <header>
 
     
@@ -20,8 +36,8 @@
         <article id="knoppen">
             <nav>
                 <ul>
-                    <li><a href="#">Producten</a></li>
-                    <li><a href="#">Evenementen</a></li>
+                    <li><a href="../Product pagina - Siwani/Product.php">Producten</a></li>
+                    <li><a href="../evenementen pagina - Tyler/evenementten.html">Evenementen</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
             </nav>
@@ -34,6 +50,40 @@
             <img id="band" src="IMG/Band-optreden.jpg">
         </section>
 
+        <?php
+    if($result = $conn->query($sql)){
+        while($row = $result->fetch_assoc()){
+?>
+            <details class="evenement">
+                <summary>
+                    <div class='evenementen-artiest-locatie'>
+                        <p class='artiest-naam'><?php echo "Artiest: ".$row['artiest']; ?></p>
+                        <p class='locatie-datum'><?php echo "Datum: ".$row['datum']?></p>
+                        <p class='artiest.bezoekers'><?php echo $row['max_bezoekers']. " ". "bezoekers"?></p>
+                    </div>
+                </summary>
+                <section class='evenement-details'>
+                    <div class='evenement-informatie'>
+                    <p class="artiesten-telefoon"><?php echo $row['telefoon']?></p>
+                        <img class='locatie-gebouw-foto' src='Images/shiba-inu.jpg' height="200">
+                    </div>
+                    <div class='evenement-kaart'>
+                        <p class="locatie-plaats"><?php echo $row['plaatsnaam']. " ". $row['plaats']?></p>
+                        <img src='Images/stok.jpg' height="200">
+                    </div>
+                </section>
+            </details>
+
+    <?php
+        } 
+    } 
+    $result->close();
+    ?>
+
+
+
+
+        <!--COMMENT
         <details class="evenement">
             <summary>
                 <div class="evenementen-artiest-locatie">
@@ -58,7 +108,7 @@
                 </div>
             </section>
         </details>
-
+        -->
 
 
 
