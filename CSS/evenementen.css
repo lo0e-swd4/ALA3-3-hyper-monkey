@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.google.com/specimen/Potta+One');
 
 
 body {
@@ -26,6 +27,7 @@ header {
     width: 100vw;
     z-index: 10;
 
+
 }
 
 header article {
@@ -33,6 +35,10 @@ header article {
     flex-direction: row;
     justify-content: space-around;
 }   
+
+header a {
+    font-family: 'Potta One',cursive;
+}
 
 #monk-logo {
     flex: 5;
@@ -82,6 +88,10 @@ header article {
        width: 50vw;
    }
 
+   #bootcamp {
+       height: 52.99vh;
+   }
+
    #band {
        height: 53vh;
    }
@@ -91,6 +101,18 @@ header article {
        margin-top: 10vh;
        min-height: 74vh;
        margin-bottom: 10px;
+   }
+
+   .titel_background {
+       background-color: #77AEC8;
+       height: 5vh;
+       margin-top: -2.5vh;
+   }
+
+   .titel {
+       color: white;
+       text-align: center;
+       margin-left: 10px;
    }
 
 .evenement-details {
@@ -144,11 +166,38 @@ header article {
 }
 
 .evenement {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
 }
 
+summary {
+    background-color: lightcoral;
+    padding: 1vw 1vh;
+}
 
+details {
+    background-color: rgb(160, 204, 204);
+}
+
+.evenementen-artiest-locatie {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -3vh;
+}
+
+.evenementen-artiest-locatie p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.evenement-details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.evenement-details p {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 

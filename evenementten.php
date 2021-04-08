@@ -26,6 +26,10 @@ INNER JOIN locaties ON evenementen.locatie_id = locaties.locatie_id
 WHERE evenementen.datum > NOW()
 ORDER BY evenementen.datum ASC";
 
+if ($conn->connect_error){
+    die("Connectie gefaald: " .$conn->connect_error);
+}
+
 ?>
     <header>
 
@@ -36,8 +40,8 @@ ORDER BY evenementen.datum ASC";
         <article id="knoppen">
             <nav>
                 <ul>
-                    <li><a href="../Product pagina - Siwani/Product.php">Producten</a></li>
-                    <li><a href="../evenementen pagina - Tyler/evenementten.html">Evenementen</a></li>
+                    <li><a href="Product.php">Producten</a></li>
+                    <li><a href="evenementten.php">Evenementen</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
             </nav>
@@ -46,14 +50,19 @@ ORDER BY evenementen.datum ASC";
 
     <main>
         <section class="banner">
-            <img src="IMG/Bootcamp.jpg">
+            <img id='bootcamp' src="IMG/Bootcamp.jpg">
             <img id="band" src="IMG/Band-optreden.jpg">
+        </section>
+
+        <section class='titel_background'>
+            <h1 class='titel'><b>Evenementen</b></h1>
         </section>
 
         <?php
     if($result = $conn->query($sql)){
         while($row = $result->fetch_assoc()){
 ?>
+ 
             <details class="evenement">
                 <summary>
                     <div class='evenementen-artiest-locatie'>
@@ -65,11 +74,11 @@ ORDER BY evenementen.datum ASC";
                 <section class='evenement-details'>
                     <div class='evenement-informatie'>
                     <p class="artiesten-telefoon"><?php echo $row['telefoon']?></p>
-                        <img class='locatie-gebouw-foto' src='Images/shiba-inu.jpg' height="200">
+                        <img class='locatie-gebouw-foto' src='IMG/Band-optreden.jpg' height="200">
                     </div>
                     <div class='evenement-kaart'>
                         <p class="locatie-plaats"><?php echo $row['plaatsnaam']. " ". $row['plaats']?></p>
-                        <img src='Images/stok.jpg' height="200">
+                        <img src='IMG/nederzandt.png' height="200">
                     </div>
                 </section>
             </details>
