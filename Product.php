@@ -333,8 +333,8 @@
                     <article id="knoppen">
                         <nav>
                             <ul>
-                                <li><a href="#">Producten</a></li>
-                                <li><a href="#">Evenementen</a></li>
+                                <li><a href="Product.php">Producten</a></li>
+                                <li><a href="evenementten.php">Evenementen</a></li>
                                 <li><a href="#">FAQ</a></li>
                             </ul>
                         </nav>
